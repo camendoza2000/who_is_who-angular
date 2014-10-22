@@ -1,0 +1,156 @@
+.accordionButton {  
+  width: 98%;
+  float: left;
+  cursor: pointer;
+  }
+ 
+.accordionContent { 
+  float: left;
+  background: #95B1CE;
+  display: none;
+  }
+
+body{
+  background: rgba(24,154,202,0.87);
+  background: -moz-linear-gradient(45deg, rgba(24,154,202,0.87) 0%, rgba(24,154,202,0.87) 26%, rgba(19,100,147,0.86) 53%, rgba(19,100,147,0.86) 57%, rgba(19,100,147,0.95) 85%, rgba(19,100,147,0.95) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(24,154,202,0.87)), color-stop(26%, rgba(24,154,202,0.87)), color-stop(53%, rgba(19,100,147,0.86)), color-stop(57%, rgba(19,100,147,0.86)), color-stop(85%, rgba(19,100,147,0.95)), color-stop(100%, rgba(19,100,147,0.95)));
+  background: -webkit-linear-gradient(45deg, rgba(24,154,202,0.87) 0%, rgba(24,154,202,0.87) 26%, rgba(19,100,147,0.86) 53%, rgba(19,100,147,0.86) 57%, rgba(19,100,147,0.95) 85%, rgba(19,100,147,0.95) 100%);
+  background: -o-linear-gradient(45deg, rgba(24,154,202,0.87) 0%, rgba(24,154,202,0.87) 26%, rgba(19,100,147,0.86) 53%, rgba(19,100,147,0.86) 57%, rgba(19,100,147,0.95) 85%, rgba(19,100,147,0.95) 100%);
+  background: -ms-linear-gradient(45deg, rgba(24,154,202,0.87) 0%, rgba(24,154,202,0.87) 26%, rgba(19,100,147,0.86) 53%, rgba(19,100,147,0.86) 57%, rgba(19,100,147,0.95) 85%, rgba(19,100,147,0.95) 100%);
+  background: linear-gradient(45deg, rgba(24,154,202,0.87) 0%, rgba(24,154,202,0.87) 26%, rgba(19,100,147,0.86) 53%, rgba(19,100,147,0.86) 57%, rgba(19,100,147,0.95) 85%, rgba(19,100,147,0.95) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#189aca', endColorstr='#136493', GradientType=1 );
+}
+
+.bubble{
+  position: relative;
+  width: 250px;
+  height: 60px;
+  padding: 0px;
+  background: #dedede;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: #044c81 solid 2px;
+}
+
+.bubble:after{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 0;
+  border-color: #dedede transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -15px;
+  left: 186px;
+}
+
+.bubble:before{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 16px 16px 0;
+  border-color: #044c81 transparent;
+  display: block;
+  width: 0;
+  z-index: 0;
+  bottom: -18px;
+  left: 185px;
+}
+
+.top{ 
+  height: 20%;
+  position: relative;
+}
+
+
+#banner{
+  float: right;
+  margin-right: 200px;
+  margin-top: 15px;
+  position: relative;
+}
+
+
+#centre-table{
+  margin: 34px 0px 34px 0px;
+  border-collapse: separate;
+  border-spacing: 10px 10px;
+}
+
+#fancy{
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#logo{
+  display: block;
+  margin-left: 50px;
+}
+
+.blue_font{
+  color: #00437a;
+}
+
+#panel{
+  background-color: white;
+  border: 3px solid gray;
+  float: left;
+  height: 70%;
+  position: relative;
+  margin-left: 33px;
+  width: 21%;
+}
+
+.panel-list{
+  list-style-type: none;
+  margin-left: -5em;
+}
+
+#photo-format{
+  width: 46%;
+  height: 50%;
+}
+
+#photo-show{
+  background: white;
+  float: right;
+  position: relative;
+  height: 70%;
+  width: 70%;
+  margin-right: 33px;
+  overflow: auto;
+}
+
+#show{
+  height: 900px;
+  margin: 0 auto;
+}
+
+#polaroid-format{
+  background-color: white;
+  border: 1px solid black;
+}
+
+#polaroid-text{
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+}
+
+.table_image{
+  margin: 10px 4px 7px 4px;
+}
+
+
+
+#title{
+  color: #00437a;
+  font-family: Verdana, sans-serif;
+  font-size: 35px;
+  line-height: 61px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}

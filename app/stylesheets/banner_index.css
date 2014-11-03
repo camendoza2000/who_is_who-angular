@@ -1,0 +1,50 @@
+.bubble{
+  position: relative;
+  width: 250px;
+  height: 60px;
+  padding: 0px;
+  background: #dedede;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: #044c81 solid 2px;
+}
+
+.bubble:after{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 0;
+  border-color: #dedede transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -15px;
+  left: 186px;
+}
+
+.bubble:before{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 16px 16px 0;
+  border-color: #044c81 transparent;
+  display: block;
+  width: 0;
+  z-index: 0;
+  bottom: -18px;
+  left: 185px;
+}
+
+.top{ 
+  height: 20%;
+  position: relative;
+}
+
+
+#banner{
+  float: right;
+  margin-right: 200px;
+  margin-top: 15px;
+  position: relative;
+}

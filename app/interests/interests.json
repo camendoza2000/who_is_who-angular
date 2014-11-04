@@ -1,0 +1,7 @@
+$scope.interest = [
+  {name: "cooking"},
+  {name: "read"},
+  {name: "dance",},
+  {name: "drink"},
+  {name: "punch bears in the face"}
+]

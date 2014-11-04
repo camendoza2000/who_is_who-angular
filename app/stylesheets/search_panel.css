@@ -1,0 +1,26 @@
+
+.blue_font{
+  color: #00437a;
+}
+
+#fancy{
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#panel{
+  background-color: white;
+  border: 3px solid gray;
+  float: left;
+  height: 70%;
+  position: relative;
+  margin-left: 33px;
+  width: 21%;
+}
+
+.panel-list{
+  list-style-type: none;
+  margin-left: -5em;
+}
+

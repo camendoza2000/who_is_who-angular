@@ -1,14 +1,14 @@
 'use strict';
 
-angular.module('myApp.view1', ['ngRoute'])
+angular.module('myApp.show', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view1', {
-    templateUrl: 'view1/view1.html',
-    controller: 'View1Ctrl'
+  $routeProvider.when('/show', {
+    templateUrl: 'show/show.html',
+    controller: 'showCtrl'
   });
 }])
 
-.controller('View1Ctrl', [function() {
+.controller('showCtrl', [function() {
 
 }]);

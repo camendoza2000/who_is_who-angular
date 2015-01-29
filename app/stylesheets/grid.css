@@ -1,0 +1,40 @@
+#centre-table{
+  margin: 34px 0px 34px 0px;
+  border-collapse: separate;
+  border-spacing: 10px 10px;
+}
+
+#polaroid-format{
+  background-color: white;
+  border: 1px solid black;
+}
+
+#polaroid-text{
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+}
+
+#photo-format{
+  width: 46%;
+  height: 50%;
+}
+
+#photo-show{
+  background: white;
+  float: right;
+  position: relative;
+  height: 70%;
+  width: 70%;
+  margin-right: 33px;
+  overflow: auto;
+}
+
+
+.table_image{
+  margin: 10px 4px 7px 4px;
+}
+
+#show{
+  height: 900px;
+  margin: 0 auto;
+}

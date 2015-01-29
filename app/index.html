@@ -53,14 +53,14 @@
 
     </div>
 
-    <div id="photo-show">
+    <div id="photo-show" ng-controller="showUsersController as show">
       <table id="centre-table" class="polaroids">
         <tbody>
           <tr>
-            <td id="polaroid-format">
-              <!-- photo  -->
+            <td id="polaroid-format" ng-repeat="user in show.users">
+              <img ng-src="{{user.avatar}}">
               <p id="polaroid-text">
-                <!-- user.name --> <br>
+                {{user.name}} <br>
               </p>
             </td>
           </tr>
@@ -78,6 +78,7 @@
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
+  <script src="index.js"></script>
   <script src="users/show.js"></script>
   <script src="view2/view2.js"></script>
   <script src="components/version/version.js"></script>

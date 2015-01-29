@@ -21,11 +21,11 @@ var app = angular.module("myApp", []);
 
 	// var data = angular.fromJson(app/user_data/user_data.json);
 
-   var data: [
-	{name: "Pancho", avatar: "app/images/1.jpg", interests: "punch giraffes", id: "1"},
-	{name: "Maria", avatar: "app/images/2.jpg", interests: "flagelarse", id: "2"},
-	{name: "Concha", avatar: "app/images/3.jpg", interests: "ser una loncha de queso", id: "3"},
-	{name: "Laura", avatar: "app/images/4.jpg", interests: "nadar", id: "4"}
-	];
+   var data= [
+				{name: "Pancho", avatar: "app/images/1.jpg", interests: "punch giraffes", id: "1"},
+				{name: "Maria", avatar: "app/images/2.jpg", interests: "flagelarse", id: "2"},
+				{name: "Concha", avatar: "app/images/3.jpg", interests: "ser una loncha de queso", id: "3"},
+				{name: "Laura", avatar: "app/images/4.jpg", interests: "nadar", id: "4"}
+			];
 
  })();

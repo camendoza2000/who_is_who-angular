@@ -33,7 +33,7 @@
 
   <br>
 
-  <div id="show">
+  <div id="show"  ng-controller="ShowUserController as show">
     
     <div id="panel">
       <p id="fancy">Who's Who</p>
@@ -45,8 +45,8 @@
       <div id="accordion">
         <h3 class="blue_font">Interests</h3>
         <div>
-          <ul class="panel-list">
-            <li class="interest-list">hola</li>
+          <ul class="panel-list" ng-repeat="user in show.users">
+            <li class="interest-list"> {{user.interests}} </li>
           </ul>
         </div>
       </div>
@@ -57,10 +57,10 @@
       <table id="centre-table" class="polaroids">
         <tbody>
           <tr>
-            <td id="polaroid-format">
-              <!-- photo  -->
+            <td id="polaroid-format" ng-repeat="user in show.users">
+              <img ng-src="{{user.avatar}}">
               <p id="polaroid-text">
-                <!-- user.name --> <br>
+                {{user.name}} <br>
               </p>
             </td>
           </tr>

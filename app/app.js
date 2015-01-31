@@ -13,6 +13,7 @@
 // 	{name: "Laura", avatar: "images/4.jpg", interests: "nadar", id: "4"}
 // ];
 
-  var data = angular.fromJson(user_data/user_data.json);
+  var data = angular.fromJson("user_data/user_data.json");
+  console.log(data);
   
 })();

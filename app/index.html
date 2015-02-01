@@ -60,7 +60,7 @@
         <tbody>
           <tr>
             <td id="polaroid-format" ng-repeat="user in show.users">
-              <img ng-src="{{user.avatar}}">
+              <img ng-src="{{user.avatar}}" id = {{user.id}}>
               <p id="polaroid-text">
                 {{user.name}} <br>
               </p>

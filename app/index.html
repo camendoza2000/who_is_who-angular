@@ -46,7 +46,9 @@
         <h3 class="blue_font">Interests</h3>
         <div>
           <ul class="panel-list" ng-repeat="user in show.users">
-            <li class="interest-list"> {{user.interests}} </li>
+            <li class="interest-list"> 
+              <input type="checkbox"> {{user.interests}} 
+            </li>
           </ul>
         </div>
       </div>

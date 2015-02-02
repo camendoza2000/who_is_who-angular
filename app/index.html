@@ -33,12 +33,12 @@
 
   <br>
 
-  <div id="show"  ng-controller="ShowUserController as show">
+  <div id="show" ng-controller="ShowUserController as show">
     
     <div id="panel">
       <p id="fancy">Who's Who</p>
       <form>
-        <input type="text" placeholder="Search..." required>
+        <input type="text" placeholder="Search..." required >
         <input type="button" value="Search"
       </form>
       
@@ -47,7 +47,7 @@
         <div>
           <ul class="panel-list" ng-repeat="user in show.users">
             <li class="interest-list"> 
-              <input type="checkbox"> {{user.interests}} 
+              <input type="checkbox" id = {{user.id}} class="interests-checkbox"> {{user.interests}} 
             </li>
           </ul>
         </div>

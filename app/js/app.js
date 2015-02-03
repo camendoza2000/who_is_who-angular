@@ -19,7 +19,7 @@
         }).
         when('/users/:userId', {
           templateUrl: 'partials/show.html',
-          controller: 'PhoneDetailCtrl'
+          controller: 'userProfileController'
         }).
         otherwise({
           redirectTo: '/app'

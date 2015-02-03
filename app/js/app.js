@@ -2,23 +2,28 @@
 
 /* App Module */
 
-var app = angular.module('myApp', [
-  'ngRoute',
-  'phonecatControllers'
-]);
+(function() {
 
-myApp.config(['$routeProvider',
-  function($routeProvider) {
-    $routeProvider.
-      when('/phones', {
-        templateUrl: 'partials/phone-list.html',
-        controller: 'PhoneListCtrl'
-      }).
-      when('/phones/:phoneId', {
-        templateUrl: 'partials/phone-detail.html',
-        controller: 'PhoneDetailCtrl'
-      }).
-      otherwise({
-        redirectTo: '/phones'
-      });
-  }]);
+  var wiwApp = angular.module('wiwApp', [
+    'ngRoute',
+    'myApp'
+  ]);
+  
+  
+  wiwApp.config(['$routeProvider',
+    function($routeProvider) {
+      $routeProvider.
+        when('/app', {
+          templateUrl: 'partials/user_grid.html',
+          controller: 'ShowUserController'
+        }).
+        when('/users/:userId', {
+          templateUrl: 'partials/show.html',
+          controller: 'PhoneDetailCtrl'
+        }).
+        otherwise({
+          redirectTo: '/app'
+        });
+    }]);
+  
+})();

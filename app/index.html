@@ -54,22 +54,7 @@
 
     </div>
 
-    <div id="photo-show" ng-controller="ShowUserController">
-      <table id="centre-table" class="polaroids">
-        <tbody>
-          <tr>
-            <td id="polaroid-format" ng-repeat="user in users | orderBy:'name'">
-              <img ng-src="{{user.avatar}}" id = {{user.id}}>
-              <p id="polaroid-text">
-                {{user.name}} <br>
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-  </div>
+    <div ng-view></div>
 
   
 
@@ -79,6 +64,7 @@
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="js/controllers.js"></script>
+  <script src="js/app.js"></script>
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>

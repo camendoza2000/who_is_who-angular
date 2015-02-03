@@ -14,7 +14,10 @@
       $scope.interests = intetests_data;
     });    
   }])
-
-
+  
+  app.controller('userProfileController', ['$scope', '$routeParams',
+  function($scope, $routeParams) {
+    $scope.userId = $routeParams.userId;
+  }]);
 
 })();

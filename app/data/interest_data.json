@@ -1,0 +1,10 @@
+[
+   {"name": "punch giraffes", "user_id": [1], "id": 1},
+
+   {"name": "flagelarse", "user_id": [2], "id": 2},
+
+   {"name": "Ser una loncha de queso", "user_id": [2, 3], "id": 3},
+
+   {"name": "nadar", "user_id": [4], "id": 4}			
+
+]

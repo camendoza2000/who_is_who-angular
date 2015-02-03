@@ -1,0 +1,9 @@
+[
+	{"name": "Pancho", "avatar": "images/1.jpg", "id": 1, "school": "Tecnológico Cristiano", "carrer": "PhD ciencia verdadera", "ocupation": "BETO"},
+
+	{"name": "Maria", "avatar": "images/2.jpg", "id": 2, "school": "MIT", "carrer": "Ing. Sistemas", "ocupation": "Dev"},
+
+	{"name": "Concha", "avatar": "images/3.jpg", "id": 3, "school": "MIT", "carrer": "Ing. Sistemas", "ocupation": "Dev"},
+
+	{"name": "Laura", "avatar": "images/4.jpg", "id": 4, "school": "ITM", "carrer": "Lic. Letras", "ocupation": "QA"}
+]

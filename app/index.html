@@ -35,7 +35,7 @@
 
   <div id="show">
     
-    <div id="panel" ng-controller="ShowInterestController as showInterests">
+    <div id="panel" ng-controller="ShowInterestController">
       <p id="fancy">Who's Who</p>
       <form>
         <input type="text" placeholder="Search..." ng-model="search">
@@ -45,7 +45,7 @@
         <h3 class="blue_font">Interests</h3>
         <div>
           <ul class="panel-list">
-            <li class="interest-list" ng-repeat="interest in showInterests.interests | filter: search | orderBy:'name'" > 
+            <li class="interest-list" ng-repeat="interest in interests | filter: search | orderBy:'name'" > 
               <input type="checkbox" id = {{interest.id}} class="interests-checkbox"> {{interest.name}}
             </li>
           </ul>

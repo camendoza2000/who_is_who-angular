@@ -6,6 +6,12 @@
     $http.get("data/user_data.json").success(function(data){
       $scope.users = data;
     });
+    
+    $scope.showUser = function(user){
+      $scope.selectedUser = this.user;
+      // Show dialog
+    }
+    
   }])
 
   

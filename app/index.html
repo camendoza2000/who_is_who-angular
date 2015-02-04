@@ -58,7 +58,7 @@
       <table id="centre-table" class="polaroids">
         <tbody>
           <tr>
-            <td id="polaroid-format" ng-repeat="user in users | orderBy:'name'">
+            <td id="polaroid-format" ng-repeat="user in users | orderBy:'name'" ng-click="showUser(user)">
               <img ng-src="{{user.avatar}}" id = {{user.id}}>
               <p id="polaroid-text">
                 {{user.name}} <br>
@@ -67,6 +67,13 @@
           </tr>
         </tbody>
       </table>
+      
+      <div id="userDetails">
+   
+       <span>Nombre: </span> {{selectedUser.Nombre}}
+       
+     </div>
+      
     </div>
 
   </div>

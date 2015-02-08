@@ -1,16 +1,15 @@
 
-      <table id="centre-table" class="polaroids">
-        <tbody>
-          <tr>
-            <td id="polaroid-format" ng-repeat="user in users | orderBy:'name'">
-              <img ng-src="{{user.avatar}}" id = {{user.id}}>
-              <p id="polaroid-text">
-                {{user.name}} <br>
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+<table id="centre-table" class="polaroids">
+  <tbody>
+    <tr>
+      <td id="polaroid-format" ng-repeat="user in users | orderBy:'name'">
+        <img ng-src="{{user.avatar}}" id = {{user.id}}>
+        <p id="polaroid-text">
+          {{user.name}} <br>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
- 
